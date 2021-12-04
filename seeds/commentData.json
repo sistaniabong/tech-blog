@@ -1,0 +1,17 @@
+[
+    {
+        "content": "What a cool javascript trick!",
+        "user_id": 1,
+        "post_id": 1
+    },
+    {
+        "content": "Hmm not sure about this trick",
+        "user_id": 2,
+        "post_id": 1
+    },
+    {
+        "content": "This is a cool CSS trick!!!",
+        "user_id": 2,
+        "post_id": 2
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Cool JavaScript Tricks",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna neque viverra justo nec ultrices dui sapien eget mi. Diam maecenas sed enim ut sem viverra aliquet. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Lorem dolor sed viverra ipsum nunc. Consectetur libero id faucibus nisl tincidunt eget. Libero id faucibus nisl tincidunt eget nullam non nisi est. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id. Viverra aliquet eget sit amet tellus cras adipiscing enim. Enim ut sem viverra aliquet eget sit amet tellus. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Egestas dui id ornare arcu odio ut.",
+        "user_id": 1
+    },
+    {
+        "title": "Cool CSS Tricks",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "user_id": 2
+    },
+    {
+        "title": "Cool Express JS Tricks",
+        "content": "Consectetur libero id faucibus nisl tincidunt eget. Libero id faucibus nisl tincidunt eget nullam non nisi est. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.",
+        "user_id": 3
+    }
+]
