@@ -86,7 +86,7 @@ This application is written in HTML, CSS, and JavaScript.  It uses bootstrap for
 To review the refactored code, please go to the [Repository](https://github.com/sistaniabong/tech-blog).
 
 ## Deploy
-To deploy this web application, please visit the following [Deployed Application](https://sistaniabong.github.io/tech-blog/)
+To deploy this web application, please visit the following [Deployed Application](https://immense-eyrie-05032.herokuapp.com/)
 
 ## Mock-Up
 The following GIF displays the web application's appearance and functionality:
