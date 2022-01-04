@@ -21,12 +21,12 @@
     <nav>
         {{!-- <a href="/profile">profile</a> --}}
         <a href="/">Home</a>
-        <a href="#">Dashboard</a>
+        <a href="/dashboard">Dashboard</a>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <button class="no-button" id="logout">logout</button>
+        <a id='logout' href="">Logout</a>
         {{else}}
-        <a href="/login">login</a>
+        <a id='login' href="/login">Login</a>
         {{/if}}
     </nav>
     <main class="container container-fluid mt-5">
@@ -40,7 +40,7 @@
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
-  <script src="/js/logout.js"></script>
+    <script src="/js/logout.js"></script>
   {{/if}}
   
 </body>

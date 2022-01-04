@@ -1,0 +1,44 @@
+<div class="card w-100 text-center">
+    <div class="card-header">
+        {{post.title}}
+    </div>
+    <div class="card-body">
+        <p class="card-text">{{post.content}}</p>
+    </div>
+    <div class="card-footer text-muted">
+        Posted by {{post.user.username}} on {{format_date post.date_created}}
+    </div>
+</div>
+
+{{#if comments.length}}
+    {{#each comments as |comment| }}
+    <div class="card w-100 text-center">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+            <p class="card-text">{{comment.content}}</p>
+        </div>
+        <div class="card-footer text-muted">
+            Posted by {{comment.user_id.username}} on {{format_date comment.date_created}}
+        </div>
+    </div>
+    {{/each}}
+{{/if}}
+
+<div>
+    <a class="btn btn-primary new-comment" href="/new-comment/{{post.id}}" data-id="{{post.id}}" role="button">Add Comment</a>
+</div>
+
+{{#if owner}}
+<div>
+    {{!-- <a class="btn btn-primary update-post" href="/update" role="button">Update </a>
+    <a class="btn btn-primary delete-post" href="/api/delete" role="button">Delete Post</a>
+    <button class="btn btn-sm btn-danger" data-id="{{post.id}}">Delete</button> --}}
+
+    {{!-- <button class="btn btn-primary" id="updatePost" data-id="{{post.id}}">Edit Post</button> --}}
+    <a class="btn btn-primary update-post" href="/update/{{post.id}}" role="button" data-id="{{post.id}}">Update </a>
+    <button class="btn btn-primary" id="deletePost" data-id="{{post.id}}">Delete Post</button>
+</div>
+{{/if}}
+
+<script src="/js/deletePost.js"></script>
