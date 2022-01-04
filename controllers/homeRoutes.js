@@ -124,11 +124,6 @@ router.get('/', async (req, res) => {
 
 
   router.get('/signup', (req, res) => {
-    if (req.session.logged_in) {
-      // res.redirect('/api/pet');
-      return;
-    }
-  
     res.render('signup');
   });
 
